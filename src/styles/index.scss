@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary: #ea40a4;
+  --business: #3a82ee;
+  --personal: var(--primary);
+  --light: #eee;
+  --grey: #888;
+  --dark: #313154;
+  --danger: #ff5b57;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  --business-glow: 0 0 4px rgba(58, 130, 238, 0.75);
+  --personal-glow: 0 0 4px rgba(234, 64, 164, 0.75);
+  --linear-grad: linear-gradient(to right, #c6ffdd, #fbd786, #c02c31);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'montserrat', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background: var(--light);
+  color: var(--dark);
+}
+
