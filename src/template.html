@@ -16,25 +16,19 @@
                 <div class="right-col">
                     <div class="right-col-title">
                         <h2> Recent Score </h2>
-                        <span> <button>Refresh</button></span>
+                        <span> <button class="refresh-btn" id="refresh-btn">Refresh</button></span>
                     </div>
                     <div class="scores-display">
-                       <ul class="score-elem">
-                        <li> <a href="#">Name: <span>100</span></a></li>
-                        <li><a href="#">Name: <span>100</span></a></li>
-                        <li><a href="#">Name: <span>100</span></a></li>
-                        <li><a href="#">Name: <span>100</span></a></li>
-                        <li><a href="#">Name: <span>100</span></a></li>
-                        <li><a href="#">Name: <span>100</span></a></li>
-                        <li><a href="#">Name: <span>100</span></a></li>
+                       <ul class="score-elem" id="scores-display">
+                        
                        </ul>
                     </div>
                 </div>
                 <div class="left-col">
                     <h2>Add Your Score</h2>
-                    <form action="">
-                        <input type="text" placeholder="Your name...">
-                        <input type="text" placeholder="Your score...">
+                    <form action="" method="post" class="form-field" id="form-area">
+                        <input id="input-text" type="text" placeholder="Your name...">
+                        <input id="input-number" type="number" placeholder="Your score...">
                         <div class="submit-btn">
                             <input type="submit" placeholder="submit">
                         </div>
