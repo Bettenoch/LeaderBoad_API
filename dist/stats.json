@@ -1,31 +1,32 @@
 {
-  "hash": "6398d88c60d2f5c52494",
+  "hash": "65e0ede63c4c9763ed0a",
   "version": "5.88.1",
-  "time": 620,
-  "builtAt": 1690920552717,
+  "time": 210,
+  "builtAt": 1691020115177,
   "publicPath": "auto",
   "outputPath": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\dist",
   "assetsByChunkName": {
     "bundle": [
-      "bundlee31aae9e62193985e2e8.js"
+      "bundle189871c8fa07c94f7b7a.js",
+      "bundle.3f896fb1e593f18630ee.hot-update.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "bundlee31aae9e62193985e2e8.js",
-      "size": 274931,
-      "emitted": false,
+      "name": "bundle189871c8fa07c94f7b7a.js",
+      "size": 308448,
+      "emitted": true,
       "comparedForEmit": false,
-      "cached": true,
+      "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "e31aae9e62193985e2e8",
+        "contenthash": "189871c8fa07c94f7b7a",
         "javascriptModule": false,
         "related": {
-          "sourceMap": "bundlee31aae9e62193985e2e8.js.map"
+          "sourceMap": "bundle189871c8fa07c94f7b7a.js.map"
         },
-        "size": 274931
+        "size": 308448
       },
       "chunkNames": [
         "bundle"
@@ -37,14 +38,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundlee31aae9e62193985e2e8.js.map",
-          "size": 318529,
-          "emitted": false,
+          "name": "bundle189871c8fa07c94f7b7a.js.map",
+          "size": 355546,
+          "emitted": true,
           "comparedForEmit": false,
-          "cached": true,
+          "cached": false,
           "info": {
             "development": true,
-            "size": 318529
+            "size": 355546
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -69,12 +70,89 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 2112,
+      "size": 1767,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 2112
+        "size": 1767
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "bundle.3f896fb1e593f18630ee.hot-update.js",
+      "size": 1600,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "3f896fb1e593f18630ee",
+        "related": {
+          "sourceMap": "bundle.3f896fb1e593f18630ee.hot-update.js.map"
+        },
+        "size": 1600
+      },
+      "chunkNames": [
+        "bundle"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "bundle.3f896fb1e593f18630ee.hot-update.js.map",
+          "size": 1819,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 1819
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "bundle"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "bundle"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "bundle"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "bundle.3f896fb1e593f18630ee.hot-update.json",
+      "size": 30,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "3f896fb1e593f18630ee",
+        "size": 30
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -88,14 +166,14 @@
   ],
   "chunks": [
     {
-      "rendered": false,
+      "rendered": true,
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 228679,
+      "size": 259683,
       "sizes": {
-        "javascript": 200635,
-        "runtime": 28044
+        "runtime": 28044,
+        "javascript": 231639
       },
       "names": [
         "bundle"
@@ -105,12 +183,14 @@
         "bundle"
       ],
       "files": [
-        "bundlee31aae9e62193985e2e8.js"
+        "bundle189871c8fa07c94f7b7a.js",
+        "bundle.3f896fb1e593f18630ee.hot-update.js"
       ],
       "auxiliaryFiles": [
-        "bundlee31aae9e62193985e2e8.js.map"
+        "bundle.3f896fb1e593f18630ee.hot-update.js.map",
+        "bundle189871c8fa07c94f7b7a.js.map"
       ],
-      "hash": "21fd9448d15751443a86",
+      "hash": "256262165ecae1b9b61a",
       "childrenByOrder": {},
       "id": "bundle",
       "siblings": [],
@@ -230,9 +310,95 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 7490,
+          "size": 13059,
           "sizes": {
-            "javascript": 7490
+            "javascript": 13059
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\boxicons\\dist\\boxicons.js",
+          "name": "./node_modules/boxicons/dist/boxicons.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\boxicons\\dist\\boxicons.js",
+          "index": 39,
+          "preOrderIndex": 39,
+          "index2": 36,
+          "postOrderIndex": 36,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
+          "issuerName": "./src/modules/DisplayScore.js",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+              "name": "./src/modules/FetchScore.js",
+              "id": "./src/modules/FetchScore.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
+              "name": "./src/modules/DisplayScore.js",
+              "id": "./src/modules/DisplayScore.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/boxicons/dist/boxicons.js",
+          "issuerId": "./src/modules/DisplayScore.js",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
+              "module": "./src/modules/DisplayScore.js",
+              "moduleName": "./src/modules/DisplayScore.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
+              "resolvedModule": "./src/modules/DisplayScore.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "boxicons",
+              "loc": "1:0-18",
+              "moduleId": "./src/modules/DisplayScore.js",
+              "resolvedModuleId": "./src/modules/DisplayScore.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\boxicons\\dist\\boxicons.js",
+              "module": "./node_modules/boxicons/dist/boxicons.js",
+              "moduleName": "./node_modules/boxicons/dist/boxicons.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\boxicons\\dist\\boxicons.js",
+              "resolvedModule": "./node_modules/boxicons/dist/boxicons.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:12876-12890",
+              "moduleId": "./node_modules/boxicons/dist/boxicons.js",
+              "resolvedModuleId": "./node_modules/boxicons/dist/boxicons.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 7537,
+          "sizes": {
+            "javascript": 7537
           },
           "built": false,
           "codeGenerated": false,
@@ -3994,12 +4160,12 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 29,
+          "size": 666,
           "sizes": {
-            "javascript": 29
+            "javascript": 666
           },
           "built": true,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
           "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
@@ -4007,8 +4173,8 @@
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
           "index": 26,
           "preOrderIndex": 26,
-          "index2": 36,
-          "postOrderIndex": 36,
+          "index2": 40,
+          "postOrderIndex": 40,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -4045,6 +4211,279 @@
           "providedExports": [],
           "optimizationBailout": [],
           "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 480,
+          "sizes": {
+            "javascript": 480
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
+          "name": "./src/modules/DisplayScore.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
+          "index": 38,
+          "preOrderIndex": 38,
+          "index2": 37,
+          "postOrderIndex": 37,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "issuerName": "./src/modules/FetchScore.js",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+              "name": "./src/modules/FetchScore.js",
+              "id": "./src/modules/FetchScore.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/modules/DisplayScore.js",
+          "issuerId": "./src/modules/FetchScore.js",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+              "module": "./src/modules/FetchScore.js",
+              "moduleName": "./src/modules/FetchScore.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+              "resolvedModule": "./src/modules/FetchScore.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./DisplayScore.js",
+              "loc": "5:0-43",
+              "moduleId": "./src/modules/FetchScore.js",
+              "resolvedModuleId": "./src/modules/FetchScore.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+              "module": "./src/modules/FetchScore.js",
+              "moduleName": "./src/modules/FetchScore.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+              "resolvedModule": "./src/modules/FetchScore.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./DisplayScore.js",
+              "loc": "33:28-38",
+              "moduleId": "./src/modules/FetchScore.js",
+              "resolvedModuleId": "./src/modules/FetchScore.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 16219,
+          "sizes": {
+            "javascript": 16219
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "name": "./src/modules/FetchScore.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "index": 37,
+          "preOrderIndex": 37,
+          "index2": 39,
+          "postOrderIndex": 39,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/modules/FetchScore.js",
+          "issuerId": "./src/index.js",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/FetchScore.js",
+              "loc": "2:0-67",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/FetchScore.js",
+              "loc": "13:2-10",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/FetchScore.js",
+              "loc": "17:34-48",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "addScore",
+            "retrieveScores"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 562,
+          "sizes": {
+            "javascript": 562
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\ValidateForm.js",
+          "name": "./src/modules/ValidateForm.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\ValidateForm.js",
+          "index": 40,
+          "preOrderIndex": 40,
+          "index2": 38,
+          "postOrderIndex": 38,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "issuerName": "./src/modules/FetchScore.js",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+              "name": "./src/modules/FetchScore.js",
+              "id": "./src/modules/FetchScore.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/modules/ValidateForm.js",
+          "issuerId": "./src/modules/FetchScore.js",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+              "module": "./src/modules/FetchScore.js",
+              "moduleName": "./src/modules/FetchScore.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+              "resolvedModule": "./src/modules/FetchScore.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./ValidateForm.js",
+              "loc": "6:0-44",
+              "moduleId": "./src/modules/FetchScore.js",
+              "resolvedModuleId": "./src/modules/FetchScore.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+              "module": "./src/modules/FetchScore.js",
+              "moduleName": "./src/modules/FetchScore.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+              "resolvedModule": "./src/modules/FetchScore.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./ValidateForm.js",
+              "loc": "75:10-21",
+              "moduleId": "./src/modules/FetchScore.js",
+              "resolvedModuleId": "./src/modules/FetchScore.js"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+              "module": "./src/modules/FetchScore.js",
+              "moduleName": "./src/modules/FetchScore.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+              "resolvedModule": "./src/modules/FetchScore.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./ValidateForm.js",
+              "loc": "79:10-21",
+              "moduleId": "./src/modules/FetchScore.js",
+              "resolvedModuleId": "./src/modules/FetchScore.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
         },
         {
           "type": "module",
@@ -4119,9 +4558,9 @@
             "runtime": 267
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/compat get default export",
           "name": "webpack/runtime/compat get default export",
           "nameForCondition": null,
@@ -4155,9 +4594,9 @@
             "runtime": 308
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/define property getters",
           "name": "webpack/runtime/define property getters",
           "nameForCondition": null,
@@ -4191,9 +4630,9 @@
             "runtime": 209
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/get javascript update chunk filename",
           "name": "webpack/runtime/get javascript update chunk filename",
           "nameForCondition": null,
@@ -4227,9 +4666,9 @@
             "runtime": 92
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/get update manifest filename",
           "name": "webpack/runtime/get update manifest filename",
           "nameForCondition": null,
@@ -4263,9 +4702,9 @@
             "runtime": 54
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/getFullHash",
           "name": "webpack/runtime/getFullHash",
           "nameForCondition": null,
@@ -4299,9 +4738,9 @@
             "runtime": 221
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/global",
           "name": "webpack/runtime/global",
           "nameForCondition": null,
@@ -4335,9 +4774,9 @@
             "runtime": 88
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/hasOwnProperty shorthand",
           "name": "webpack/runtime/hasOwnProperty shorthand",
           "nameForCondition": null,
@@ -4371,9 +4810,9 @@
             "runtime": 9347
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/hot module replacement",
           "name": "webpack/runtime/hot module replacement",
           "nameForCondition": null,
@@ -4407,9 +4846,9 @@
             "runtime": 14716
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/jsonp chunk loading",
           "name": "webpack/runtime/jsonp chunk loading",
           "nameForCondition": null,
@@ -4443,9 +4882,9 @@
             "runtime": 1510
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/load script",
           "name": "webpack/runtime/load script",
           "nameForCondition": null,
@@ -4479,9 +4918,9 @@
             "runtime": 274
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/make namespace object",
           "name": "webpack/runtime/make namespace object",
           "nameForCondition": null,
@@ -4515,9 +4954,9 @@
             "runtime": 35
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/nonce",
           "name": "webpack/runtime/nonce",
           "nameForCondition": null,
@@ -4551,9 +4990,9 @@
             "runtime": 923
           },
           "built": false,
-          "codeGenerated": false,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "webpack/runtime/publicPath",
           "name": "webpack/runtime/publicPath",
           "nameForCondition": null,
@@ -4717,12 +5156,12 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 29,
+      "size": 666,
       "sizes": {
-        "javascript": 29
+        "javascript": 666
       },
       "built": true,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
       "cached": false,
       "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
@@ -4730,8 +5169,8 @@
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
       "index": 26,
       "preOrderIndex": 26,
-      "index2": 36,
-      "postOrderIndex": 36,
+      "index2": 40,
+      "postOrderIndex": 40,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -6167,6 +6606,98 @@
       "usedExports": null,
       "providedExports": [
         "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 16219,
+      "sizes": {
+        "javascript": 16219
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+      "name": "./src/modules/FetchScore.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+      "index": 37,
+      "preOrderIndex": 37,
+      "index2": 39,
+      "postOrderIndex": 39,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/modules/FetchScore.js",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/FetchScore.js",
+          "loc": "2:0-67",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/FetchScore.js",
+          "loc": "13:2-10",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/FetchScore.js",
+          "loc": "17:34-48",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "addScore",
+        "retrieveScores"
       ],
       "optimizationBailout": [],
       "depth": 1
@@ -7748,9 +8279,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 7490,
+      "size": 7537,
       "sizes": {
-        "javascript": 7490
+        "javascript": 7537
       },
       "built": false,
       "codeGenerated": false,
@@ -8041,6 +8572,184 @@
           "loc": "78:50-64",
           "moduleId": "./src/styles/index.scss",
           "resolvedModuleId": "./src/styles/index.scss"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 480,
+      "sizes": {
+        "javascript": 480
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
+      "name": "./src/modules/DisplayScore.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
+      "index": 38,
+      "preOrderIndex": 38,
+      "index2": 37,
+      "postOrderIndex": 37,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+      "issuerName": "./src/modules/FetchScore.js",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "name": "./src/modules/FetchScore.js",
+          "id": "./src/modules/FetchScore.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/modules/DisplayScore.js",
+      "issuerId": "./src/modules/FetchScore.js",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "module": "./src/modules/FetchScore.js",
+          "moduleName": "./src/modules/FetchScore.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "resolvedModule": "./src/modules/FetchScore.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./DisplayScore.js",
+          "loc": "5:0-43",
+          "moduleId": "./src/modules/FetchScore.js",
+          "resolvedModuleId": "./src/modules/FetchScore.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "module": "./src/modules/FetchScore.js",
+          "moduleName": "./src/modules/FetchScore.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "resolvedModule": "./src/modules/FetchScore.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./DisplayScore.js",
+          "loc": "33:28-38",
+          "moduleId": "./src/modules/FetchScore.js",
+          "resolvedModuleId": "./src/modules/FetchScore.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 562,
+      "sizes": {
+        "javascript": 562
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\ValidateForm.js",
+      "name": "./src/modules/ValidateForm.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\ValidateForm.js",
+      "index": 40,
+      "preOrderIndex": 40,
+      "index2": 38,
+      "postOrderIndex": 38,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+      "issuerName": "./src/modules/FetchScore.js",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "name": "./src/modules/FetchScore.js",
+          "id": "./src/modules/FetchScore.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/modules/ValidateForm.js",
+      "issuerId": "./src/modules/FetchScore.js",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "module": "./src/modules/FetchScore.js",
+          "moduleName": "./src/modules/FetchScore.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "resolvedModule": "./src/modules/FetchScore.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./ValidateForm.js",
+          "loc": "6:0-44",
+          "moduleId": "./src/modules/FetchScore.js",
+          "resolvedModuleId": "./src/modules/FetchScore.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "module": "./src/modules/FetchScore.js",
+          "moduleName": "./src/modules/FetchScore.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "resolvedModule": "./src/modules/FetchScore.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./ValidateForm.js",
+          "loc": "75:10-21",
+          "moduleId": "./src/modules/FetchScore.js",
+          "resolvedModuleId": "./src/modules/FetchScore.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "module": "./src/modules/FetchScore.js",
+          "moduleName": "./src/modules/FetchScore.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "resolvedModule": "./src/modules/FetchScore.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./ValidateForm.js",
+          "loc": "79:10-21",
+          "moduleId": "./src/modules/FetchScore.js",
+          "resolvedModuleId": "./src/modules/FetchScore.js"
         }
       ],
       "usedExports": null,
@@ -8563,6 +9272,91 @@
     },
     {
       "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 13059,
+      "sizes": {
+        "javascript": 13059
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": true,
+      "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\boxicons\\dist\\boxicons.js",
+      "name": "./node_modules/boxicons/dist/boxicons.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\boxicons\\dist\\boxicons.js",
+      "index": 39,
+      "preOrderIndex": 39,
+      "index2": 36,
+      "postOrderIndex": 36,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
+      "issuerName": "./src/modules/DisplayScore.js",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
+          "name": "./src/modules/FetchScore.js",
+          "id": "./src/modules/FetchScore.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
+          "name": "./src/modules/DisplayScore.js",
+          "id": "./src/modules/DisplayScore.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/boxicons/dist/boxicons.js",
+      "issuerId": "./src/modules/DisplayScore.js",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
+          "module": "./src/modules/DisplayScore.js",
+          "moduleName": "./src/modules/DisplayScore.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
+          "resolvedModule": "./src/modules/DisplayScore.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "boxicons",
+          "loc": "1:0-18",
+          "moduleId": "./src/modules/DisplayScore.js",
+          "resolvedModuleId": "./src/modules/DisplayScore.js"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\boxicons\\dist\\boxicons.js",
+          "module": "./node_modules/boxicons/dist/boxicons.js",
+          "moduleName": "./node_modules/boxicons/dist/boxicons.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\boxicons\\dist\\boxicons.js",
+          "resolvedModule": "./node_modules/boxicons/dist/boxicons.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "1:12876-12890",
+          "moduleId": "./node_modules/boxicons/dist/boxicons.js",
+          "resolvedModuleId": "./node_modules/boxicons/dist/boxicons.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "type": "module",
       "moduleType": "runtime",
       "layer": null,
       "size": 267,
@@ -8570,9 +9364,9 @@
         "runtime": 267
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/compat get default export",
       "name": "webpack/runtime/compat get default export",
       "nameForCondition": null,
@@ -8605,9 +9399,9 @@
         "runtime": 308
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/define property getters",
       "name": "webpack/runtime/define property getters",
       "nameForCondition": null,
@@ -8640,9 +9434,9 @@
         "runtime": 209
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/get javascript update chunk filename",
       "name": "webpack/runtime/get javascript update chunk filename",
       "nameForCondition": null,
@@ -8675,9 +9469,9 @@
         "runtime": 92
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/get update manifest filename",
       "name": "webpack/runtime/get update manifest filename",
       "nameForCondition": null,
@@ -8710,9 +9504,9 @@
         "runtime": 54
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/getFullHash",
       "name": "webpack/runtime/getFullHash",
       "nameForCondition": null,
@@ -8745,9 +9539,9 @@
         "runtime": 221
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/global",
       "name": "webpack/runtime/global",
       "nameForCondition": null,
@@ -8780,9 +9574,9 @@
         "runtime": 88
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/hasOwnProperty shorthand",
       "name": "webpack/runtime/hasOwnProperty shorthand",
       "nameForCondition": null,
@@ -8815,9 +9609,9 @@
         "runtime": 9347
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/hot module replacement",
       "name": "webpack/runtime/hot module replacement",
       "nameForCondition": null,
@@ -8850,9 +9644,9 @@
         "runtime": 14716
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/jsonp chunk loading",
       "name": "webpack/runtime/jsonp chunk loading",
       "nameForCondition": null,
@@ -8885,9 +9679,9 @@
         "runtime": 1510
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/load script",
       "name": "webpack/runtime/load script",
       "nameForCondition": null,
@@ -8920,9 +9714,9 @@
         "runtime": 274
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/make namespace object",
       "name": "webpack/runtime/make namespace object",
       "nameForCondition": null,
@@ -8955,9 +9749,9 @@
         "runtime": 35
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/nonce",
       "name": "webpack/runtime/nonce",
       "nameForCondition": null,
@@ -8990,9 +9784,9 @@
         "runtime": 923
       },
       "built": false,
-      "codeGenerated": false,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "webpack/runtime/publicPath",
       "name": "webpack/runtime/publicPath",
       "nameForCondition": null,
@@ -9025,20 +9819,28 @@
       ],
       "assets": [
         {
-          "name": "bundlee31aae9e62193985e2e8.js",
-          "size": 274931
+          "name": "bundle189871c8fa07c94f7b7a.js",
+          "size": 308448
+        },
+        {
+          "name": "bundle.3f896fb1e593f18630ee.hot-update.js",
+          "size": 1600
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 274931,
+      "assetsSize": 310048,
       "auxiliaryAssets": [
         {
-          "name": "bundlee31aae9e62193985e2e8.js.map",
-          "size": 318529
+          "name": "bundle.3f896fb1e593f18630ee.hot-update.js.map",
+          "size": 1819
+        },
+        {
+          "name": "bundle189871c8fa07c94f7b7a.js.map",
+          "size": 355546
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 318529,
+      "auxiliaryAssetsSize": 357365,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -9052,20 +9854,28 @@
       ],
       "assets": [
         {
-          "name": "bundlee31aae9e62193985e2e8.js",
-          "size": 274931
+          "name": "bundle189871c8fa07c94f7b7a.js",
+          "size": 308448
+        },
+        {
+          "name": "bundle.3f896fb1e593f18630ee.hot-update.js",
+          "size": 1600
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 274931,
+      "assetsSize": 310048,
       "auxiliaryAssets": [
         {
-          "name": "bundlee31aae9e62193985e2e8.js.map",
-          "size": 318529
+          "name": "bundle.3f896fb1e593f18630ee.hot-update.js.map",
+          "size": 1819
+        },
+        {
+          "name": "bundle189871c8fa07c94f7b7a.js.map",
+          "size": 355546
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 318529,
+      "auxiliaryAssetsSize": 357365,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
