@@ -15,6 +15,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+     - [🚀 Live Demo](#live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -62,7 +63,11 @@
 
 <!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Live Demo Link](https://bettenoch.github.io/LeaderBoad_API/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -112,6 +117,8 @@ To run the project, execute the following command:
 
 
 - GitHub: [@bettenoch](https://github.com/Bettenoch)
+- Twitter: [@BybEnoch](https://twitter.com/BybEnoch)
+- LinkedIn: [@GeoIntelligence](https://www.linkedin.com/in/bett-kipngeno-enock-8b5153214/)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -154,4 +161,6 @@ This project is [MIT](https://github.com/Bettenoch/Webpack-Project/blob/main/LIC
 
 
 <a name="readme-top"></a>
+
+
 
