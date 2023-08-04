@@ -25,7 +25,8 @@
 }
 
 body {
-  background: var(--light);
+  background: rgb(231,218,228);
+  background: linear-gradient(90deg, rgba(231,218,228,1) 0%, rgba(230,221,221,1) 54%, rgba(237,125,184,1) 95%);
   color: var(--dark);
 }
 
@@ -33,30 +34,54 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   margin: 1rem;
-  width: 100vw;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.image-holder {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  background-image: url('../assets/AstroBoy.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .heading-tag {
+  display: flex;
+  width: 100%;
+  text-align: center;
   padding-block: 2rem;
+  padding-left: 4rem;
 }
 
 .heading-tag h1 {
-  font-size: 2.3rem;
-  font-weight: 700;
-  color: #000;
+  font-size: 3.2rem;
+  font-weight: 900;
+  background-image: url("../assets/Header2.jpg");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+}
+
+.Next-title {
+  font-size: 3rem;
+  background-image: url("../assets/TitleImg.jpg");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
 }
 
 .min-container {
   display: flex;
-  align-items: center;
   gap: 3rem;
   width: 100%;
   padding: 0 4rem;
@@ -66,7 +91,7 @@ body {
   display: flex;
   gap: 1rem;
   flex-direction: column;
-  padding-top: 2rem;
+  
 }
 
 .right-col-title {
@@ -75,12 +100,39 @@ body {
 }
 
 button {
-  display: flex;
+  display: block;
+  width: 10rem;
+  height: 2rem;
+  position: relative;
+  text-align: center;
   padding: 0.2rem 0.8rem;
+  transition: .5s;
   font-size: 1rem;
   box-shadow: 5px 5px 5px rgba(11, 9, 9, 0.6);
 }
 
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #c383c1;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+button:hover::before {
+  box-shadow: 5px 5px 5px rgba(150, 43, 141, 0.6);
+}
+
+button:hover {
+  color: #750d73;
+  box-shadow: 5px 5px 5px rgba(150, 43, 141, 0.6);
+  
+}
 .scores-display {
   display: flex;
   border: 2px solid rgb(16, 14, 14);
@@ -92,7 +144,7 @@ button {
   width: 100%;
   gap: 0.5rem;
   flex-direction: column;
-  padding-block: 0.5rem;
+  padding-block: 1rem;
 }
 
 .score-elem li {
@@ -139,9 +191,40 @@ input[type=submit] {
   padding: 0.2rem 0.8rem;
   font-size: 1rem;
   box-shadow: 5px 5px 5px rgba(11, 9, 9, 0.6);
-  width: max-content;
+  display: block;
+  width: 10rem;
+  height: 2rem;
+  position: relative;
+  text-align: center;
 }
 
+input[type=submit]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #c383c1;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+input[type=submit]:hover::before {
+  box-shadow: 5px 5px 5px rgba(150, 43, 141, 0.6);
+}
+
+input[type=submit]:hover {
+  color: #750d73;
+  box-shadow: 5px 5px 5px rgba(150, 43, 141, 0.6);
+  
+}
+
+.list-display {
+  display: flex;
+  gap: 1rem;
+}
 .footer-container {
   width: 100%;
   display: flex;
@@ -150,7 +233,7 @@ input[type=submit] {
   position: absolute;
   bottom: 0;
   border: 1.5px solid rgb(16, 14, 14);
-  height: 5vh;
+  padding-top: 2rem;
 }
 
 footer {
