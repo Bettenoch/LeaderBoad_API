@@ -1,13 +1,13 @@
 {
-  "hash": "2807d75cd72e949367ab",
+  "hash": "f0ce4a028e34dd65e7a0",
   "version": "5.88.1",
-  "time": 29313,
-  "builtAt": 1691126817977,
+  "time": 30184,
+  "builtAt": 1691167883480,
   "publicPath": "auto",
   "outputPath": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\dist",
   "assetsByChunkName": {
     "bundle": [
-      "bundle2946cc335b53e4d4ead3.js"
+      "bundle3af54b63c99d3b923dde.js"
     ]
   },
   "assets": [
@@ -15,8 +15,8 @@
       "type": "asset",
       "name": "Header2.jpg",
       "size": 263136,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "sourceFilename": "src/assets/Header2.jpg",
@@ -39,8 +39,8 @@
       "type": "asset",
       "name": "AstroBoy.png",
       "size": 120534,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "sourceFilename": "src/assets/AstroBoy.png",
@@ -61,19 +61,19 @@
     },
     {
       "type": "asset",
-      "name": "bundle2946cc335b53e4d4ead3.js",
-      "size": 73056,
+      "name": "bundle3af54b63c99d3b923dde.js",
+      "size": 73242,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "2946cc335b53e4d4ead3",
+        "contenthash": "3af54b63c99d3b923dde",
         "javascriptModule": false,
         "related": {
-          "sourceMap": "bundle2946cc335b53e4d4ead3.js.map"
+          "sourceMap": "bundle3af54b63c99d3b923dde.js.map"
         },
-        "size": 73056
+        "size": 73242
       },
       "chunkNames": [
         "bundle"
@@ -85,14 +85,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundle2946cc335b53e4d4ead3.js.map",
-          "size": 73283,
+          "name": "bundle3af54b63c99d3b923dde.js.map",
+          "size": 73529,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 73283
+            "size": 73529
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -118,8 +118,8 @@
       "type": "asset",
       "name": "TitleImg.jpg",
       "size": 27371,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "sourceFilename": "src/assets/TitleImg.jpg",
@@ -143,7 +143,7 @@
       "name": "index.html",
       "size": 1899,
       "emitted": true,
-      "comparedForEmit": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "size": 1899
@@ -164,9 +164,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 467843,
+      "size": 468029,
       "sizes": {
-        "javascript": 54262,
+        "javascript": 54448,
         "asset": 411041,
         "runtime": 2540
       },
@@ -178,15 +178,15 @@
         "bundle"
       ],
       "files": [
-        "bundle2946cc335b53e4d4ead3.js"
+        "bundle3af54b63c99d3b923dde.js"
       ],
       "auxiliaryFiles": [
         "AstroBoy.png",
         "Header2.jpg",
         "TitleImg.jpg",
-        "bundle2946cc335b53e4d4ead3.js.map"
+        "bundle3af54b63c99d3b923dde.js.map"
       ],
-      "hash": "009f8acdf8f6287a6b82",
+      "hash": "3be824b8efbf15e23f58",
       "childrenByOrder": {},
       "id": "bundle",
       "siblings": [],
@@ -285,9 +285,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 12448,
+          "size": 12634,
           "sizes": {
-            "javascript": 12448
+            "javascript": 12634
           },
           "built": true,
           "codeGenerated": true,
@@ -3053,9 +3053,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 12448,
+      "size": 12634,
       "sizes": {
-        "javascript": 12448
+        "javascript": 12634
       },
       "built": true,
       "codeGenerated": true,
@@ -4302,12 +4302,12 @@
       ],
       "assets": [
         {
-          "name": "bundle2946cc335b53e4d4ead3.js",
-          "size": 73056
+          "name": "bundle3af54b63c99d3b923dde.js",
+          "size": 73242
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 73056,
+      "assetsSize": 73242,
       "auxiliaryAssets": [
         {
           "name": "AstroBoy.png",
@@ -4322,12 +4322,12 @@
           "size": 27371
         },
         {
-          "name": "bundle2946cc335b53e4d4ead3.js.map",
-          "size": 73283
+          "name": "bundle3af54b63c99d3b923dde.js.map",
+          "size": 73529
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 484324,
+      "auxiliaryAssetsSize": 484570,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -4341,12 +4341,12 @@
       ],
       "assets": [
         {
-          "name": "bundle2946cc335b53e4d4ead3.js",
-          "size": 73056
+          "name": "bundle3af54b63c99d3b923dde.js",
+          "size": 73242
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 73056,
+      "assetsSize": 73242,
       "auxiliaryAssets": [
         {
           "name": "AstroBoy.png",
@@ -4361,12 +4361,12 @@
           "size": 27371
         },
         {
-          "name": "bundle2946cc335b53e4d4ead3.js.map",
-          "size": 73283
+          "name": "bundle3af54b63c99d3b923dde.js.map",
+          "size": 73529
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 484324,
+      "auxiliaryAssetsSize": 484570,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -4381,8 +4381,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "5dc8ad9cd2ffd13bf8f5",
       "version": "5.88.1",
-      "time": 488,
-      "builtAt": 1691126789751,
+      "time": 4456,
+      "builtAt": 1691167858540,
       "publicPath": "",
       "outputPath": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\dist",
       "assetsByChunkName": {},
