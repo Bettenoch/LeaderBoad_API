@@ -221,6 +221,9 @@ input[type=submit]:hover {
 .list-display {
   display: flex;
   gap: 1rem;
+  font-weight: 400;
+  color: rgb(18, 13, 13);
+  padding: 1.3rem 0.5rem;
 }
 
 .footer-container {
