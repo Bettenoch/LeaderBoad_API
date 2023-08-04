@@ -1,31 +1,79 @@
 {
-  "hash": "421e50ff49908bc2433d",
+  "hash": "2807d75cd72e949367ab",
   "version": "5.88.1",
-  "time": 29724,
-  "builtAt": 1691021254421,
+  "time": 29313,
+  "builtAt": 1691126817977,
   "publicPath": "auto",
   "outputPath": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\dist",
   "assetsByChunkName": {
     "bundle": [
-      "bundle688129c8ad48537b72fa.js"
+      "bundle2946cc335b53e4d4ead3.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "bundle688129c8ad48537b72fa.js",
-      "size": 63026,
+      "name": "Header2.jpg",
+      "size": 263136,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/Header2.jpg",
+        "size": 263136
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "bundle"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [
+        "bundle"
+      ],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "AstroBoy.png",
+      "size": 120534,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/AstroBoy.png",
+        "size": 120534
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "bundle"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [
+        "bundle"
+      ],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "bundle2946cc335b53e4d4ead3.js",
+      "size": 73056,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "688129c8ad48537b72fa",
+        "contenthash": "2946cc335b53e4d4ead3",
         "javascriptModule": false,
         "related": {
-          "sourceMap": "bundle688129c8ad48537b72fa.js.map"
+          "sourceMap": "bundle2946cc335b53e4d4ead3.js.map"
         },
-        "size": 63026
+        "size": 73056
       },
       "chunkNames": [
         "bundle"
@@ -37,14 +85,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "bundle688129c8ad48537b72fa.js.map",
-          "size": 63579,
+          "name": "bundle2946cc335b53e4d4ead3.js.map",
+          "size": 73283,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 63579
+            "size": 73283
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -68,13 +116,37 @@
     },
     {
       "type": "asset",
-      "name": "index.html",
-      "size": 1767,
+      "name": "TitleImg.jpg",
+      "size": 27371,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1767
+        "sourceFilename": "src/assets/TitleImg.jpg",
+        "size": 27371
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "bundle"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [
+        "bundle"
+      ],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 1899,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 1899
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -92,10 +164,11 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 49535,
+      "size": 467843,
       "sizes": {
-        "javascript": 48563,
-        "runtime": 972
+        "javascript": 54262,
+        "asset": 411041,
+        "runtime": 2540
       },
       "names": [
         "bundle"
@@ -105,12 +178,15 @@
         "bundle"
       ],
       "files": [
-        "bundle688129c8ad48537b72fa.js"
+        "bundle2946cc335b53e4d4ead3.js"
       ],
       "auxiliaryFiles": [
-        "bundle688129c8ad48537b72fa.js.map"
+        "AstroBoy.png",
+        "Header2.jpg",
+        "TitleImg.jpg",
+        "bundle2946cc335b53e4d4ead3.js.map"
       ],
-      "hash": "4691d822f98a6b7dee4d",
+      "hash": "009f8acdf8f6287a6b82",
       "childrenByOrder": {},
       "id": "bundle",
       "siblings": [],
@@ -132,10 +208,10 @@
           "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\boxicons\\dist\\boxicons.js",
           "name": "./node_modules/boxicons/dist/boxicons.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\boxicons\\dist\\boxicons.js",
-          "index": 13,
-          "preOrderIndex": 13,
-          "index2": 10,
-          "postOrderIndex": 10,
+          "index": 17,
+          "preOrderIndex": 17,
+          "index2": 14,
+          "postOrderIndex": 14,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -209,9 +285,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 7537,
+          "size": 12448,
           "sizes": {
-            "javascript": 7537
+            "javascript": 12448
           },
           "built": true,
           "codeGenerated": true,
@@ -222,8 +298,8 @@
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
           "index": 8,
           "preOrderIndex": 8,
-          "index2": 8,
-          "postOrderIndex": 8,
+          "index2": 12,
+          "postOrderIndex": 12,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -434,7 +510,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
-              "loc": "4:30-57",
+              "loc": "8:30-57",
               "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
               "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
             },
@@ -457,6 +533,136 @@
           "providedExports": null,
           "optimizationBailout": [
             "CommonJS bailout: module.exports is used directly at 7:0-14"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 597,
+          "sizes": {
+            "javascript": 597
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+          "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+          "index": 11,
+          "preOrderIndex": 11,
+          "index2": 8,
+          "postOrderIndex": 8,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "name": "./src/styles/index.scss",
+              "id": "./src/styles/index.scss"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/getUrl.js",
+              "loc": "4:0-99",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/getUrl.js",
+              "loc": "10:41-72",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/getUrl.js",
+              "loc": "11:41-72",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/getUrl.js",
+              "loc": "12:41-72",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            },
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+              "module": "./node_modules/css-loader/dist/runtime/getUrl.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/getUrl.js",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/getUrl.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "3:0-14",
+              "moduleId": "./node_modules/css-loader/dist/runtime/getUrl.js",
+              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/getUrl.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 3:0-14"
           ],
           "depth": 3
         },
@@ -536,7 +742,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../node_modules/css-loader/dist/runtime/sourceMaps.js",
-              "loc": "4:58-95",
+              "loc": "8:58-95",
               "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
               "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
             },
@@ -1146,6 +1352,225 @@
         },
         {
           "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "javascript": 42,
+            "asset": 120534
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\assets\\AstroBoy.png",
+          "name": "./src/assets/AstroBoy.png",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\assets\\AstroBoy.png",
+          "index": 12,
+          "preOrderIndex": 12,
+          "index2": 9,
+          "postOrderIndex": 9,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "name": "./src/styles/index.scss",
+              "id": "./src/styles/index.scss"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/assets/AstroBoy.png",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/AstroBoy.png",
+              "loc": "5:36-86",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "javascript": 42,
+            "asset": 263136
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\assets\\Header2.jpg",
+          "name": "./src/assets/Header2.jpg",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\assets\\Header2.jpg",
+          "index": 13,
+          "preOrderIndex": 13,
+          "index2": 10,
+          "postOrderIndex": 10,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "name": "./src/styles/index.scss",
+              "id": "./src/styles/index.scss"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/assets/Header2.jpg",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/Header2.jpg",
+              "loc": "6:36-85",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "javascript": 42,
+            "asset": 27371
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\assets\\TitleImg.jpg",
+          "name": "./src/assets/TitleImg.jpg",
+          "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\assets\\TitleImg.jpg",
+          "index": 14,
+          "preOrderIndex": 14,
+          "index2": 11,
+          "postOrderIndex": 11,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "name": "./src/styles/index.scss",
+              "id": "./src/styles/index.scss"
+            },
+            {
+              "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/assets/TitleImg.jpg",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/TitleImg.jpg",
+              "loc": "7:36-86",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
           "size": 666,
@@ -1161,8 +1586,8 @@
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
           "index": 0,
           "preOrderIndex": 0,
-          "index2": 14,
-          "postOrderIndex": 14,
+          "index2": 18,
+          "postOrderIndex": 18,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1204,9 +1629,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 480,
+          "size": 545,
           "sizes": {
-            "javascript": 480
+            "javascript": 545
           },
           "built": true,
           "codeGenerated": true,
@@ -1215,10 +1640,10 @@
           "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
           "name": "./src/modules/DisplayScore.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
-          "index": 12,
-          "preOrderIndex": 12,
-          "index2": 11,
-          "postOrderIndex": 11,
+          "index": 16,
+          "preOrderIndex": 16,
+          "index2": 15,
+          "postOrderIndex": 15,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1298,10 +1723,10 @@
           "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
           "name": "./src/modules/FetchScore.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
-          "index": 11,
-          "preOrderIndex": 11,
-          "index2": 13,
-          "postOrderIndex": 13,
+          "index": 15,
+          "preOrderIndex": 15,
+          "index2": 17,
+          "postOrderIndex": 17,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1391,10 +1816,10 @@
           "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\ValidateForm.js",
           "name": "./src/modules/ValidateForm.js",
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\ValidateForm.js",
-          "index": 14,
-          "preOrderIndex": 14,
-          "index2": 12,
-          "postOrderIndex": 12,
+          "index": 18,
+          "preOrderIndex": 18,
+          "index2": 16,
+          "postOrderIndex": 16,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1490,8 +1915,8 @@
           "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
           "index": 1,
           "preOrderIndex": 1,
-          "index2": 9,
-          "postOrderIndex": 9,
+          "index2": 13,
+          "postOrderIndex": 13,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1613,6 +2038,42 @@
           "type": "module",
           "moduleType": "runtime",
           "layer": null,
+          "size": 221,
+          "sizes": {
+            "runtime": 221
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/global",
+          "name": "webpack/runtime/global",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
           "size": 88,
           "sizes": {
             "runtime": 88
@@ -1623,6 +2084,42 @@
           "cached": false,
           "identifier": "webpack/runtime/hasOwnProperty shorthand",
           "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 424,
+          "sizes": {
+            "runtime": 424
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/jsonp chunk loading",
+          "name": "webpack/runtime/jsonp chunk loading",
           "nameForCondition": null,
           "index": null,
           "preOrderIndex": null,
@@ -1716,6 +2213,42 @@
           "providedExports": [],
           "optimizationBailout": [],
           "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 923,
+          "sizes": {
+            "runtime": 923
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "bundle"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
         }
       ],
       "origins": [
@@ -1747,8 +2280,8 @@
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
       "index": 0,
       "preOrderIndex": 0,
-      "index2": 14,
-      "postOrderIndex": 14,
+      "index2": 18,
+      "postOrderIndex": 18,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -1802,8 +2335,8 @@
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
       "index": 1,
       "preOrderIndex": 1,
-      "index2": 9,
-      "postOrderIndex": 9,
+      "index2": 13,
+      "postOrderIndex": 13,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -1863,10 +2396,10 @@
       "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
       "name": "./src/modules/FetchScore.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\FetchScore.js",
-      "index": 11,
-      "preOrderIndex": 11,
-      "index2": 13,
-      "postOrderIndex": 13,
+      "index": 15,
+      "preOrderIndex": 15,
+      "index2": 17,
+      "postOrderIndex": 17,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -2520,9 +3053,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 7537,
+      "size": 12448,
       "sizes": {
-        "javascript": 7537
+        "javascript": 12448
       },
       "built": true,
       "codeGenerated": true,
@@ -2533,8 +3066,8 @@
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
       "index": 8,
       "preOrderIndex": 8,
-      "index2": 8,
-      "postOrderIndex": 8,
+      "index2": 12,
+      "postOrderIndex": 12,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -2672,9 +3205,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 480,
+      "size": 545,
       "sizes": {
-        "javascript": 480
+        "javascript": 545
       },
       "built": true,
       "codeGenerated": true,
@@ -2683,10 +3216,10 @@
       "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
       "name": "./src/modules/DisplayScore.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\DisplayScore.js",
-      "index": 12,
-      "preOrderIndex": 12,
-      "index2": 11,
-      "postOrderIndex": 11,
+      "index": 16,
+      "preOrderIndex": 16,
+      "index2": 15,
+      "postOrderIndex": 15,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -2765,10 +3298,10 @@
       "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\ValidateForm.js",
       "name": "./src/modules/ValidateForm.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\modules\\ValidateForm.js",
-      "index": 14,
-      "preOrderIndex": 14,
-      "index2": 12,
-      "postOrderIndex": 12,
+      "index": 18,
+      "preOrderIndex": 18,
+      "index2": 16,
+      "postOrderIndex": 16,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -2921,7 +3454,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../node_modules/css-loader/dist/runtime/sourceMaps.js",
-          "loc": "4:58-95",
+          "loc": "8:58-95",
           "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
           "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
         },
@@ -3022,7 +3555,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
-          "loc": "4:30-57",
+          "loc": "8:30-57",
           "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
           "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
         },
@@ -3052,6 +3585,351 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 597,
+      "sizes": {
+        "javascript": 597
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+      "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+      "index": 11,
+      "preOrderIndex": 11,
+      "index2": 8,
+      "postOrderIndex": 8,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "id": "./src/styles/index.scss"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./node_modules/css-loader/dist/runtime/getUrl.js",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "4:0-99",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "10:41-72",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "11:41-72",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "12:41-72",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        },
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+          "module": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "resolvedModuleId": "./node_modules/css-loader/dist/runtime/getUrl.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "asset/resource",
+      "layer": null,
+      "size": 42,
+      "sizes": {
+        "javascript": 42,
+        "asset": 120534
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "asset/resource|F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\assets\\AstroBoy.png",
+      "name": "./src/assets/AstroBoy.png",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\assets\\AstroBoy.png",
+      "index": 12,
+      "preOrderIndex": 12,
+      "index2": 9,
+      "postOrderIndex": 9,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "id": "./src/styles/index.scss"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/assets/AstroBoy.png",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "type": "new URL()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../assets/AstroBoy.png",
+          "loc": "5:36-86",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "asset/resource",
+      "layer": null,
+      "size": 42,
+      "sizes": {
+        "javascript": 42,
+        "asset": 263136
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "asset/resource|F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\assets\\Header2.jpg",
+      "name": "./src/assets/Header2.jpg",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\assets\\Header2.jpg",
+      "index": 13,
+      "preOrderIndex": 13,
+      "index2": 10,
+      "postOrderIndex": 10,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "id": "./src/styles/index.scss"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/assets/Header2.jpg",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "type": "new URL()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../assets/Header2.jpg",
+          "loc": "6:36-85",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "asset/resource",
+      "layer": null,
+      "size": 42,
+      "sizes": {
+        "javascript": 42,
+        "asset": 27371
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "asset/resource|F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\assets\\TitleImg.jpg",
+      "name": "./src/assets/TitleImg.jpg",
+      "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\assets\\TitleImg.jpg",
+      "index": 14,
+      "preOrderIndex": 14,
+      "index2": 11,
+      "postOrderIndex": 11,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\style-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "name": "./src/styles/index.scss",
+          "id": "./src/styles/index.scss"
+        },
+        {
+          "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/assets/TitleImg.jpg",
+      "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleIdentifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\css-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\sass-loader\\dist\\cjs.js!F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\src\\styles\\index.scss",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "type": "new URL()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../assets/TitleImg.jpg",
+          "loc": "7:36-86",
+          "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss",
+          "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 13059,
       "sizes": {
         "javascript": 13059
@@ -3063,10 +3941,10 @@
       "identifier": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\boxicons\\dist\\boxicons.js",
       "name": "./node_modules/boxicons/dist/boxicons.js",
       "nameForCondition": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\node_modules\\boxicons\\dist\\boxicons.js",
-      "index": 13,
-      "preOrderIndex": 13,
-      "index2": 10,
-      "postOrderIndex": 10,
+      "index": 17,
+      "preOrderIndex": 17,
+      "index2": 14,
+      "postOrderIndex": 14,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -3209,6 +4087,41 @@
       "type": "module",
       "moduleType": "runtime",
       "layer": null,
+      "size": 221,
+      "sizes": {
+        "runtime": 221
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/global",
+      "name": "webpack/runtime/global",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
       "size": 88,
       "sizes": {
         "runtime": 88
@@ -3219,6 +4132,41 @@
       "cached": false,
       "identifier": "webpack/runtime/hasOwnProperty shorthand",
       "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 424,
+      "sizes": {
+        "runtime": 424
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
       "nameForCondition": null,
       "index": null,
       "preOrderIndex": null,
@@ -3309,6 +4257,41 @@
       "providedExports": [],
       "optimizationBailout": [],
       "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 923,
+      "sizes": {
+        "runtime": 923
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/publicPath",
+      "name": "webpack/runtime/publicPath",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "bundle"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
     }
   ],
   "entrypoints": {
@@ -3319,20 +4302,32 @@
       ],
       "assets": [
         {
-          "name": "bundle688129c8ad48537b72fa.js",
-          "size": 63026
+          "name": "bundle2946cc335b53e4d4ead3.js",
+          "size": 73056
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 63026,
+      "assetsSize": 73056,
       "auxiliaryAssets": [
         {
-          "name": "bundle688129c8ad48537b72fa.js.map",
-          "size": 63579
+          "name": "AstroBoy.png",
+          "size": 120534
+        },
+        {
+          "name": "Header2.jpg",
+          "size": 263136
+        },
+        {
+          "name": "TitleImg.jpg",
+          "size": 27371
+        },
+        {
+          "name": "bundle2946cc335b53e4d4ead3.js.map",
+          "size": 73283
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 63579,
+      "auxiliaryAssetsSize": 484324,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -3346,20 +4341,32 @@
       ],
       "assets": [
         {
-          "name": "bundle688129c8ad48537b72fa.js",
-          "size": 63026
+          "name": "bundle2946cc335b53e4d4ead3.js",
+          "size": 73056
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 63026,
+      "assetsSize": 73056,
       "auxiliaryAssets": [
         {
-          "name": "bundle688129c8ad48537b72fa.js.map",
-          "size": 63579
+          "name": "AstroBoy.png",
+          "size": 120534
+        },
+        {
+          "name": "Header2.jpg",
+          "size": 263136
+        },
+        {
+          "name": "TitleImg.jpg",
+          "size": 27371
+        },
+        {
+          "name": "bundle2946cc335b53e4d4ead3.js.map",
+          "size": 73283
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 63579,
+      "auxiliaryAssetsSize": 484324,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -3372,10 +4379,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "e3d13514413eb66d6f16",
+      "hash": "5dc8ad9cd2ffd13bf8f5",
       "version": "5.88.1",
-      "time": 594,
-      "builtAt": 1691021225938,
+      "time": 488,
+      "builtAt": 1691126789751,
       "publicPath": "",
       "outputPath": "F:\\Microverse\\Solo-Projects\\LeaderBoad_API\\dist",
       "assetsByChunkName": {},
@@ -3386,9 +4393,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 2859,
+          "size": 2999,
           "sizes": {
-            "javascript": 2125,
+            "javascript": 2265,
             "runtime": 734
           },
           "names": [
@@ -3400,7 +4407,7 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "9fa999574fc9ba45ae52",
+          "hash": "aa11abb9002bb313cd90",
           "childrenByOrder": {},
           "id": "HtmlWebpackPlugin_0-0",
           "siblings": [],
@@ -3411,9 +4418,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 2048,
+              "size": 2188,
               "sizes": {
-                "javascript": 2048
+                "javascript": 2188
               },
               "built": true,
               "codeGenerated": true,
@@ -3771,9 +4778,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2048,
+          "size": 2188,
           "sizes": {
-            "javascript": 2048
+            "javascript": 2188
           },
           "built": true,
           "codeGenerated": true,

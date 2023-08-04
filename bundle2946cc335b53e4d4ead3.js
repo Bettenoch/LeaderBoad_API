@@ -20,7 +20,7 @@ var showScores = function showScores(_ref) {
     score = _ref.score;
   var li = document.createElement('li');
   li.classList.add('user-score');
-  li.innerHTML = "\n        <article>\n            <box-icon type='solid' name='user-pin'></box-icon>\n            <span class=\"user\">".concat(user, "</span>\n            <span class=\"score\">").concat(score, "</span> \n        </article>\n    ");
+  li.innerHTML = "\n        <article class='list-display'>\n            <box-icon type='solid' name='user-pin'></box-icon>\n            <div>\n              <span class=\"user\">".concat(user, ":</span>\n              <span class=\"score\">").concat(score, "</span> \n            </div>\n        </article>\n    ");
   return li;
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (showScores);
@@ -195,11 +195,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/AstroBoy.png */ "./src/assets/AstroBoy.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/Header2.jpg */ "./src/assets/Header2.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/TitleImg.jpg */ "./src/assets/TitleImg.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);"]);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `:root {
   --primary: #ea40a4;
@@ -226,7 +235,8 @@ ___CSS_LOADER_EXPORT___.push([module.id, `:root {
 }
 
 body {
-  background: var(--light);
+  background: rgb(231, 218, 228);
+  background: linear-gradient(90deg, rgb(231, 218, 228) 0%, rgb(230, 221, 221) 54%, rgb(237, 125, 184) 95%);
   color: var(--dark);
 }
 
@@ -234,30 +244,54 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   margin: 1rem;
-  width: 100vw;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.image-holder {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .heading-tag {
+  display: flex;
+  width: 100%;
+  text-align: center;
   padding-block: 2rem;
+  padding-left: 4rem;
 }
 
 .heading-tag h1 {
-  font-size: 2.3rem;
-  font-weight: 700;
-  color: #000;
+  font-size: 3.2rem;
+  font-weight: 900;
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+}
+
+.Next-title {
+  font-size: 3rem;
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
 }
 
 .min-container {
   display: flex;
-  align-items: center;
   gap: 3rem;
   width: 100%;
   padding: 0 4rem;
@@ -267,7 +301,6 @@ body {
   display: flex;
   gap: 1rem;
   flex-direction: column;
-  padding-top: 2rem;
 }
 
 .right-col-title {
@@ -276,10 +309,37 @@ body {
 }
 
 button {
-  display: flex;
+  display: block;
+  width: 10rem;
+  height: 2rem;
+  position: relative;
+  text-align: center;
   padding: 0.2rem 0.8rem;
+  transition: 0.5s;
   font-size: 1rem;
   box-shadow: 5px 5px 5px rgba(11, 9, 9, 0.6);
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #c383c1;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+button:hover::before {
+  box-shadow: 5px 5px 5px rgba(150, 43, 141, 0.6);
+}
+
+button:hover {
+  color: #750d73;
+  box-shadow: 5px 5px 5px rgba(150, 43, 141, 0.6);
 }
 
 .scores-display {
@@ -293,7 +353,7 @@ button {
   width: 100%;
   gap: 0.5rem;
   flex-direction: column;
-  padding-block: 0.5rem;
+  padding-block: 1rem;
 }
 
 .score-elem li {
@@ -323,7 +383,8 @@ form {
   gap: 1.5rem;
 }
 
-input[type=text], input[type=number] {
+input[type=text],
+input[type=number] {
   padding: 0.5rem 0.7rem;
   border: 0.2rem solid rgb(16, 14, 14);
   border-radius: 4px;
@@ -335,11 +396,41 @@ input[type=text], input[type=number] {
 }
 
 input[type=submit] {
-  display: flex;
   padding: 0.2rem 0.8rem;
   font-size: 1rem;
   box-shadow: 5px 5px 5px rgba(11, 9, 9, 0.6);
-  width: max-content;
+  display: block;
+  width: 10rem;
+  height: 2rem;
+  position: relative;
+  text-align: center;
+}
+
+input[type=submit]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #c383c1;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+input[type=submit]:hover::before {
+  box-shadow: 5px 5px 5px rgba(150, 43, 141, 0.6);
+}
+
+input[type=submit]:hover {
+  color: #750d73;
+  box-shadow: 5px 5px 5px rgba(150, 43, 141, 0.6);
+}
+
+.list-display {
+  display: flex;
+  gap: 1rem;
 }
 
 .footer-container {
@@ -350,14 +441,14 @@ input[type=submit] {
   position: absolute;
   bottom: 0;
   border: 1.5px solid rgb(16, 14, 14);
-  height: 5vh;
+  padding-top: 2rem;
 }
 
 footer {
   width: 100%;
   display: flex;
   justify-content: center;
-}`, "",{"version":3,"sources":["webpack://./src/styles/index.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,mBAAA;EACA,0BAAA;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;EACA,sCAAA;EACA,0EAAA;EACA,iDAAA;EACA,iDAAA;EACA,mEAAA;AAAF;;AAGA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,qCAAA;EACA,qBAAA;EACA,qBAAA;AAAF;;AAGA;EACE,wBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,kBAAA;EACA,YAAA;EACA,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,YAAA;EACA,YAAA;AAAF;;AAGA;EACE,mBAAA;AAAF;;AAGA;EACE,iBAAA;EACA,gBAAA;EACA,WAAA;AAAF;;AAGA;EACE,aAAA;EACA,mBAAA;EACA,SAAA;EACA,WAAA;EACA,eAAA;AAAF;;AAGA;EACE,aAAA;EACA,SAAA;EACA,sBAAA;EACA,iBAAA;AAAF;;AAGA;EACE,aAAA;EACA,SAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,eAAA;EACA,2CAAA;AAAF;;AAGA;EACE,aAAA;EACA,iCAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,WAAA;EACA,WAAA;EACA,sBAAA;EACA,qBAAA;AAAF;;AAGA;EACE,cAAA;EACA,WAAA;AAAF;;AAGA;EACE,yBAAA;AAAF;;AAGA;EACE,gBAAA;EACA,sBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,WAAA;AAAF;;AAGA;EACE,sBAAA;EACA,oCAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,yBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,eAAA;EACA,2CAAA;EACA,kBAAA;AAAF;;AAGA;EACE,WAAA;EACA,aAAA;EACA,mBAAA;EACA,yBAAA;EACA,kBAAA;EACA,SAAA;EACA,mCAAA;EACA,WAAA;AAAF;;AAGA;EACE,WAAA;EACA,aAAA;EACA,uBAAA;AAAF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\r\n\r\n:root {\r\n  --primary: #ea40a4;\r\n  --business: #3a82ee;\r\n  --personal: var(--primary);\r\n  --light: #eee;\r\n  --grey: #888;\r\n  --dark: #313154;\r\n  --danger: #ff5b57;\r\n  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\r\n  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  --business-glow: 0 0 4px rgba(58, 130, 238, 0.75);\r\n  --personal-glow: 0 0 4px rgba(234, 64, 164, 0.75);\r\n  --linear-grad: linear-gradient(to right, #c6ffdd, #fbd786, #c02c31);\r\n}\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'montserrat', sans-serif;\r\n  text-decoration: none;\r\n  list-style-type: none;\r\n}\r\n\r\nbody {\r\n  background: var(--light);\r\n  color: var(--dark);\r\n}\r\n\r\n.main-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  position: relative;\r\n  width: 100vw;\r\n  height: 100vh;\r\n}\r\n\r\n.container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin: 1rem;\r\n  width: 100vw;\r\n}\r\n\r\n.heading-tag {\r\n  padding-block: 2rem;\r\n}\r\n\r\n.heading-tag h1 {\r\n  font-size: 2.3rem;\r\n  font-weight: 700;\r\n  color: #000;\r\n}\r\n\r\n.min-container {\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 3rem;\r\n  width: 100%;\r\n  padding: 0 4rem;\r\n}\r\n\r\n.right-col {\r\n  display: flex;\r\n  gap: 1rem;\r\n  flex-direction: column;\r\n  padding-top: 2rem;\r\n}\r\n\r\n.right-col-title {\r\n  display: flex;\r\n  gap: 1rem;\r\n}\r\n\r\nbutton {\r\n  display: flex;\r\n  padding: 0.2rem 0.8rem;\r\n  font-size: 1rem;\r\n  box-shadow: 5px 5px 5px rgba(11, 9, 9, 0.6);\r\n}\r\n\r\n.scores-display {\r\n  display: flex;\r\n  border: 2px solid rgb(16, 14, 14);\r\n  border-radius: 4px;\r\n}\r\n\r\n.score-elem {\r\n  display: flex;\r\n  width: 100%;\r\n  gap: 0.5rem;\r\n  flex-direction: column;\r\n  padding-block: 0.5rem;\r\n}\r\n\r\n.score-elem li {\r\n  display: block;\r\n  width: 100%;\r\n}\r\n\r\n.score-elem li:nth-child(even) {\r\n  background-color: #c5c5c5;\r\n}\r\n\r\n.score-elem li a {\r\n  font-weight: 400;\r\n  color: rgb(16, 14, 14);\r\n  padding: 1.3rem 0.5rem;\r\n}\r\n\r\n.left-col {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1.5rem;\r\n}\r\n\r\ninput[type=text], input[type=number] {\r\n  padding: 0.5rem 0.7rem;\r\n  border: 0.2rem solid rgb(16, 14, 14);\r\n  border-radius: 4px;\r\n}\r\n\r\n.submit-btn {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}\r\n\r\ninput[type=submit] {\r\n  display: flex;\r\n  padding: 0.2rem 0.8rem;\r\n  font-size: 1rem;\r\n  box-shadow: 5px 5px 5px rgba(11, 9, 9, 0.6);\r\n  width: max-content;\r\n}\r\n\r\n.footer-container {\r\n  width: 100%;\r\n  display: flex;\r\n  align-items: center;\r\n  background-color: #797676;\r\n  position: absolute;\r\n  bottom: 0;\r\n  border: 1.5px solid rgb(16, 14, 14);\r\n  height: 5vh;\r\n}\r\n\r\nfooter {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n\r\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/index.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,mBAAA;EACA,0BAAA;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;EACA,sCAAA;EACA,0EAAA;EACA,iDAAA;EACA,iDAAA;EACA,mEAAA;AAAF;;AAGA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,qCAAA;EACA,qBAAA;EACA,qBAAA;AAAF;;AAGA;EACE,8BAAA;EACA,yGAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,kBAAA;EACA,WAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,YAAA;EACA,WAAA;EACA,oBAAA;AAAF;;AAGA;EACE,aAAA;EACA,YAAA;EACA,aAAA;EACA,yDAAA;EACA,sBAAA;EACA,2BAAA;EACA,4BAAA;AAAF;;AAGA;EACE,aAAA;EACA,WAAA;EACA,kBAAA;EACA,mBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,iBAAA;EACA,gBAAA;EACA,yDAAA;EACA,6BAAA;EACA,oCAAA;EACA,sBAAA;AAAF;;AAGA;EACE,eAAA;EACA,yDAAA;EACA,6BAAA;EACA,oCAAA;EACA,sBAAA;AAAF;;AAGA;EACE,aAAA;EACA,SAAA;EACA,WAAA;EACA,eAAA;AAAF;;AAGA;EACE,aAAA;EACA,SAAA;EACA,sBAAA;AAAF;;AAGA;EACE,aAAA;EACA,SAAA;AAAF;;AAGA;EACE,cAAA;EACA,YAAA;EACA,YAAA;EACA,kBAAA;EACA,kBAAA;EACA,sBAAA;EACA,gBAAA;EACA,eAAA;EACA,2CAAA;AAAF;;AAGA;EACE,WAAA;EACA,kBAAA;EACA,MAAA;EACA,OAAA;EACA,WAAA;EACA,YAAA;EACA,mBAAA;EACA,gBAAA;EACA,qBAAA;EACA,WAAA;AAAF;;AAGA;EACE,+CAAA;AAAF;;AAGA;EACE,cAAA;EACA,+CAAA;AAAF;;AAGA;EACE,aAAA;EACA,iCAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,WAAA;EACA,WAAA;EACA,sBAAA;EACA,mBAAA;AAAF;;AAGA;EACE,cAAA;EACA,WAAA;AAAF;;AAGA;EACE,yBAAA;AAAF;;AAGA;EACE,gBAAA;EACA,sBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,WAAA;AAAF;;AAGA;;EAEE,sBAAA;EACA,oCAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,yBAAA;AAAF;;AAGA;EACE,sBAAA;EACA,eAAA;EACA,2CAAA;EACA,cAAA;EACA,YAAA;EACA,YAAA;EACA,kBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,WAAA;EACA,kBAAA;EACA,MAAA;EACA,OAAA;EACA,WAAA;EACA,YAAA;EACA,mBAAA;EACA,gBAAA;EACA,qBAAA;EACA,WAAA;AAAF;;AAGA;EACE,+CAAA;AAAF;;AAGA;EACE,cAAA;EACA,+CAAA;AAAF;;AAGA;EACE,aAAA;EACA,SAAA;AAAF;;AAGA;EACE,WAAA;EACA,aAAA;EACA,mBAAA;EACA,yBAAA;EACA,kBAAA;EACA,SAAA;EACA,mCAAA;EACA,iBAAA;AAAF;;AAGA;EACE,WAAA;EACA,aAAA;EACA,uBAAA;AAAF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\r\n\r\n:root {\r\n  --primary: #ea40a4;\r\n  --business: #3a82ee;\r\n  --personal: var(--primary);\r\n  --light: #eee;\r\n  --grey: #888;\r\n  --dark: #313154;\r\n  --danger: #ff5b57;\r\n  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\r\n  --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\r\n  --business-glow: 0 0 4px rgba(58, 130, 238, 0.75);\r\n  --personal-glow: 0 0 4px rgba(234, 64, 164, 0.75);\r\n  --linear-grad: linear-gradient(to right, #c6ffdd, #fbd786, #c02c31);\r\n}\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'montserrat', sans-serif;\r\n  text-decoration: none;\r\n  list-style-type: none;\r\n}\r\n\r\nbody {\r\n  background: rgb(231, 218, 228);\r\n  background: linear-gradient(90deg, rgba(231, 218, 228, 1) 0%, rgba(230, 221, 221, 1) 54%, rgba(237, 125, 184, 1) 95%);\r\n  color: var(--dark);\r\n}\r\n\r\n.main-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  position: relative;\r\n  width: 100%;\r\n}\r\n\r\n.container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin: 1rem;\r\n  width: 100%;\r\n  padding-bottom: 2rem;\r\n}\r\n\r\n.image-holder {\r\n  height: 300px;\r\n  width: 300px;\r\n  display: flex;\r\n  background-image: url('../assets/AstroBoy.png');\r\n  background-size: cover;\r\n  background-position: center;\r\n  background-repeat: no-repeat;\r\n}\r\n\r\n.heading-tag {\r\n  display: flex;\r\n  width: 100%;\r\n  text-align: center;\r\n  padding-block: 2rem;\r\n  padding-left: 4rem;\r\n}\r\n\r\n.heading-tag h1 {\r\n  font-size: 3.2rem;\r\n  font-weight: 900;\r\n  background-image: url(\"../assets/Header2.jpg\");\r\n  -webkit-background-clip: text;\r\n  -webkit-text-fill-color: transparent;\r\n  background-size: cover;\r\n}\r\n\r\n.Next-title {\r\n  font-size: 3rem;\r\n  background-image: url(\"../assets/TitleImg.jpg\");\r\n  -webkit-background-clip: text;\r\n  -webkit-text-fill-color: transparent;\r\n  background-size: cover;\r\n}\r\n\r\n.min-container {\r\n  display: flex;\r\n  gap: 3rem;\r\n  width: 100%;\r\n  padding: 0 4rem;\r\n}\r\n\r\n.right-col {\r\n  display: flex;\r\n  gap: 1rem;\r\n  flex-direction: column;\r\n}\r\n\r\n.right-col-title {\r\n  display: flex;\r\n  gap: 1rem;\r\n}\r\n\r\nbutton {\r\n  display: block;\r\n  width: 10rem;\r\n  height: 2rem;\r\n  position: relative;\r\n  text-align: center;\r\n  padding: 0.2rem 0.8rem;\r\n  transition: 0.5s;\r\n  font-size: 1rem;\r\n  box-shadow: 5px 5px 5px rgba(11, 9, 9, 0.6);\r\n}\r\n\r\nbutton::before {\r\n  content: '';\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: #c383c1;\r\n  transition: 0.5s;\r\n  transform: scale(0.9);\r\n  z-index: -1;\r\n}\r\n\r\nbutton:hover::before {\r\n  box-shadow: 5px 5px 5px rgba(150, 43, 141, 0.6);\r\n}\r\n\r\nbutton:hover {\r\n  color: #750d73;\r\n  box-shadow: 5px 5px 5px rgba(150, 43, 141, 0.6);\r\n}\r\n\r\n.scores-display {\r\n  display: flex;\r\n  border: 2px solid rgb(16, 14, 14);\r\n  border-radius: 4px;\r\n}\r\n\r\n.score-elem {\r\n  display: flex;\r\n  width: 100%;\r\n  gap: 0.5rem;\r\n  flex-direction: column;\r\n  padding-block: 1rem;\r\n}\r\n\r\n.score-elem li {\r\n  display: block;\r\n  width: 100%;\r\n}\r\n\r\n.score-elem li:nth-child(even) {\r\n  background-color: #c5c5c5;\r\n}\r\n\r\n.score-elem li a {\r\n  font-weight: 400;\r\n  color: rgb(16, 14, 14);\r\n  padding: 1.3rem 0.5rem;\r\n}\r\n\r\n.left-col {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1.5rem;\r\n}\r\n\r\ninput[type=text],\r\ninput[type=number] {\r\n  padding: 0.5rem 0.7rem;\r\n  border: 0.2rem solid rgb(16, 14, 14);\r\n  border-radius: 4px;\r\n}\r\n\r\n.submit-btn {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n}\r\n\r\ninput[type=submit] {\r\n  padding: 0.2rem 0.8rem;\r\n  font-size: 1rem;\r\n  box-shadow: 5px 5px 5px rgba(11, 9, 9, 0.6);\r\n  display: block;\r\n  width: 10rem;\r\n  height: 2rem;\r\n  position: relative;\r\n  text-align: center;\r\n}\r\n\r\ninput[type=submit]::before {\r\n  content: '';\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: #c383c1;\r\n  transition: 0.5s;\r\n  transform: scale(0.9);\r\n  z-index: -1;\r\n}\r\n\r\ninput[type=submit]:hover::before {\r\n  box-shadow: 5px 5px 5px rgba(150, 43, 141, 0.6);\r\n}\r\n\r\ninput[type=submit]:hover {\r\n  color: #750d73;\r\n  box-shadow: 5px 5px 5px rgba(150, 43, 141, 0.6);\r\n}\r\n\r\n.list-display {\r\n  display: flex;\r\n  gap: 1rem;\r\n}\r\n\r\n.footer-container {\r\n  width: 100%;\r\n  display: flex;\r\n  align-items: center;\r\n  background-color: #797676;\r\n  position: absolute;\r\n  bottom: 0;\r\n  border: 1.5px solid rgb(16, 14, 14);\r\n  padding-top: 2rem;\r\n}\r\n\r\nfooter {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -455,6 +546,42 @@ module.exports = function (cssWithMappingToString) {
     }
   };
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+  if (!url) {
+    return url;
+  }
+  url = String(url.__esModule ? url.default : url);
+
+  // If url is already wrapped in quotes, remove them
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+  if (options.hash) {
+    url += options.hash;
+  }
+
+  // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+  return url;
 };
 
 /***/ }),
@@ -811,6 +938,39 @@ function styleTagTransform(css, styleElement) {
 }
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/assets/AstroBoy.png":
+/*!*********************************!*\
+  !*** ./src/assets/AstroBoy.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "AstroBoy.png";
+
+/***/ }),
+
+/***/ "./src/assets/Header2.jpg":
+/*!********************************!*\
+  !*** ./src/assets/Header2.jpg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "Header2.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/TitleImg.jpg":
+/*!*********************************!*\
+  !*** ./src/assets/TitleImg.jpg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "TitleImg.jpg";
+
 /***/ })
 
 /******/ 	});
@@ -839,6 +999,9 @@ module.exports = styleTagTransform;
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -864,6 +1027,18 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -878,6 +1053,55 @@ module.exports = styleTagTransform;
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"bundle": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
@@ -921,4 +1145,4 @@ refresh.addEventListener('click', _modules_FetchScore_js__WEBPACK_IMPORTED_MODUL
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle688129c8ad48537b72fa.js.map
+//# sourceMappingURL=bundle2946cc335b53e4d4ead3.js.map
